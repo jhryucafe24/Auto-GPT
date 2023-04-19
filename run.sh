@@ -1,5 +1,5 @@
 #!/bin/bash
-python scripts/check_requirements.py requirements.txt
+python3.11 scripts/check_requirements.py requirements.txt
 if [ $? -eq 1 ]
 then
     echo Installing missing packages...
